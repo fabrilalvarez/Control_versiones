@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Control_versiones {
 
     static double activar;
-    static double version = 2.1;
+    static double version = 2.3;
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -36,9 +36,6 @@ public class Control_versiones {
         }
         if (activar == 1) {
             System.out.println("Cerrado");
-        }
-        if (activar > 1) {
-            System.out.println("PATRI PORFA SE MI COLABORADORA ;)  )");
         }
     }
 
