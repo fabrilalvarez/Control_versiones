@@ -19,6 +19,9 @@ public class Control_versiones {
         if (activar > 1) {
             programa();
         }
+        
+        PatriMetodo patri = new PatriMetodo();
+        patri.chachiMetodo();
     }
 
     public static void programa() {
@@ -40,6 +43,8 @@ public class Control_versiones {
         if (activar > 1) {
             System.out.println("PATRI PORFA SE MI COLABORADORA ;)  )");
         }
+   
     }
-
+    
+    
 }
