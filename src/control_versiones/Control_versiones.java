@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Control_versiones {
 
     static double activar;
-    static double version = 3.4;
+    static double version = 3.5;
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -19,13 +19,10 @@ public class Control_versiones {
         if (activar > 1) {
             programa();
         }
-        
-        PatriMetodo patri = new PatriMetodo();
-        patri.chachiMetodo();
     }
 
     public static void programa() {
-        System.out.println(":::::::PROGRAMA:::::::");
+        PatriMetodo.chachiMetodo();
         Bena.Matrix();
     }
 
@@ -41,7 +38,6 @@ public class Control_versiones {
         if (activar == 1) {
             System.out.println("Cerrado");
         }
-   
     }
     
     
