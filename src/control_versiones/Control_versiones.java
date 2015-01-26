@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Control_versiones {
 
     static double activar;
-    static double version = 2.3;
+    static double version = 3.3;
 
     public static void main(String[] args) {
         // TODO code application logic here
