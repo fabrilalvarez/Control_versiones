@@ -6,10 +6,10 @@ public class Control_versiones {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        double version = 1.1;
+        double version = 1.2;
         double activar;
 
-        System.out.println("para ver versión pulsa 0");
+        System.out.println("para ver version pulsa 0");
         Scanner dato = new Scanner(System.in);
         activar = dato.nextDouble();
 
@@ -22,7 +22,7 @@ public class Control_versiones {
         }
         
         if(activar > 1){
-            System.out.println("");
+            System.out.println("PATRI PORFA SE MI COLABORADORA ;)  )");
             
         }
         
