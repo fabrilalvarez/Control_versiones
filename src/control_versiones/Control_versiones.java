@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Control_versiones {
 
     static double activar;
-    static double version = 3.6;
+    static double version = 4.7;
 
     public static void main(String[] args) {
         // TODO code application logic here
 
-        System.out.println("para ejecutar pulsa cualquier tecla");
-        System.out.println("para ver versión pulsa 0");
-        System.out.println("para cerrar pulsa 1");
+        System.out.println("para ejecutar pulsa 2");
+        System.out.println("para ver versión pulsa 1");
+        System.out.println("para cerrar pulsa 0");
         dato();
         Versiones();
 
-        if (activar > 1) {
+        if (activar == 2) {
             programa();
         }
     }
@@ -32,10 +32,10 @@ public class Control_versiones {
     }
 
     public static void Versiones() {
-        if (activar == 0) {
+        if (activar == 1) {
             System.out.println("VERSION : " + version);
         }
-        if (activar == 1) {
+        if (activar == 0) {
             System.out.println("Cerrado");
         }
     }
