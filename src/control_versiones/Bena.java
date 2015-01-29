@@ -19,8 +19,9 @@ public class Bena {
         }
         if(past==1){
             System.out.println("Entras en Matrix");
+            System.out.println("A x culo");
         }else{
-            System.out.println("Vete a tomar el pelo a otro");
+            System.out.println("Vete a tomar x culo");
         }
     }
 }
