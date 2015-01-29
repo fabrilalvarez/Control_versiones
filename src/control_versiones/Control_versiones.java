@@ -39,6 +39,5 @@ public class Control_versiones {
             System.out.println("Cerrado");
         }
     }
-    
-    
+
 }

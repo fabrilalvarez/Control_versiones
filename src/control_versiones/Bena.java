@@ -1,6 +1,8 @@
 
 package control_versiones;
 
+import java.util.Scanner;
+
 
 public class Bena {
     
@@ -9,6 +11,8 @@ public class Bena {
     public static void Matrix(){
         System.out.println("¿queres entrar en Matrix?");
         System.out.println("pulsa 0 para roja  y 1 para azul");
+        Scanner obx= new Scanner(System.in);
+        past= obx.nextInt();
         
         if(past==0){
             System.out.println("No entras en Matrix");
